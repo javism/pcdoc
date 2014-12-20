@@ -1,0 +1,31 @@
+@relation analcatdata-bondrate-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.supervised.instance.StratifiedRemoveFolds-S66465959-N4-F1
+
+@attribute Population numeric
+@attribute Per_capita_income numeric
+@attribute Household_income numeric
+@attribute Discretionary_income numeric
+@attribute Publics_in_top_10 {0,1,2,3,4,5,6,7,8,9}
+@attribute Nonprofits_in_top_10 {0,1,2,3,4,5}
+@attribute For_profits_in_top_10 {1,2,3,4,5,6,7,8,9}
+@attribute Utilities_in_top_10 {0,1,2}
+@attribute Region {Midwest,Northeast,South,West}
+@attribute State_capital {No,Yes}
+@attribute Rating {(1)_AAA,(2)_AA,(3)_A,(4)_BBB,(5)_BB}
+
+@data
+
+741459,15986,49228,41338,0,1,9,0,West,No,(3)_A
+2242798,16024,52108,40047,3,2,5,0,Northeast,No,(3)_A
+2382172,17116,61695,46170,2,3,4,1,South,No,(3)_A
+1189288,15094,50659,38545,6,0,4,0,Northeast,No,(4)_BBB
+804219,19634,65474,51639,0,5,5,0,Northeast,No,(4)_BBB
+2122101,15166,50740,39385,4,1,5,0,West,Yes,(2)_AA
+981747,15337,52543,42057,6,2,2,0,South,No,(2)_AA
+1744124,16801,54870,44464,4,1,4,1,Midwest,No,(2)_AA
+1566280,17487,56286,45301,5,1,4,0,Midwest,No,(2)_AA
+14531529,16271,71029,49481,4,1,5,0,West,No,(2)_AA
+1123678,20853,69989,55108,1,1,7,1,Northeast,Yes,(2)_AA
+6253311,22003,80087,55590,4,1,5,0,West,No,(2)_AA
+2498016,16485,56542,47163,7,2,1,0,West,No,(2)_AA
+735480,17642,49546,44655,4,1,4,1,South,Yes,(1)_AAA
+5899345,18837,63701,51337,0,3,7,0,Northeast,No,(5)_BB

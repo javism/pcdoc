@@ -1,0 +1,37 @@
+@relation pasture-production-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.supervised.instance.StratifiedRemoveFolds-S1491527492-N4-F1
+
+@attribute fertiliser {LL,LN,HN,HH}
+@attribute slope numeric
+@attribute aspect-dev-NW numeric
+@attribute OlsenP numeric
+@attribute MinN numeric
+@attribute TS numeric
+@attribute Ca-Mg numeric
+@attribute LOM numeric
+@attribute NFIX-mean numeric
+@attribute Eworms-main-3 numeric
+@attribute Eworms-No-species numeric
+@attribute KUnSat numeric
+@attribute OM numeric
+@attribute Air-Perm numeric
+@attribute Porosity numeric
+@attribute HFRG-pct-mean numeric
+@attribute legume-yield numeric
+@attribute OSPP-pct-mean numeric
+@attribute Jan-Mar-mean-TDR numeric
+@attribute Annual-Mean-Runoff numeric
+@attribute root-surface-area numeric
+@attribute Leaf-P numeric
+@attribute pasture-prod-class {LO,MED,HI}
+
+@data
+
+HN,25,20,9,162,325,4.16,2.85,0.044,72.6,3,20.6,9.1,0,0.192,11.31,178.9,8.93,18,591.4,184.8,2025,LO
+LN,18,68,7,189,430,3,2.53,0.012,96,4,46,6.8,0,0.192,6.86,111.8,3.35,36.4,729.1,153.9,1757,LO
+LN,20,25,9,199,410,3.2,1.77,0.02,43.3,3,29.6,8,0,0.212,4.43,212,9.94,27.3,660.5,520.6,1694,LO
+HN,7,103,12,375,440,4.54,2.76,0.052,285.7,5,9,9.4,0,0.158,46.72,165,3.26,31.5,773.1,160,2477,HI
+HH,23,50,39,334,500,4.7,2.26,0.117,191.1,4,7.7,11.1,0,0.157,46.87,255.8,1.19,35.6,703.8,109,3993,HI
+HN,15,108,10,313,395,4.16,2.69,0.064,182.6,4,8.1,7.6,0,0.145,37.14,182.8,9.56,25.5,666.4,148.4,2303,HI
+LL,25,37,8,235,235,3.64,2.11,0.061,129.9,5,31.9,6.8,0,0.188,2.63,298.3,8.63,19.7,615.7,269.3,1335,MED
+HH,20,30,29,316,510,4.7,2,0.133,129.9,3,23.2,9.9,0,0.18,13.38,355.2,5.91,26.9,611.9,134.8,3158,MED
+LL,16,68,8,303,515,3.48,3.51,0.098,92.3,4,31.7,11.1,0,0.153,28.96,310.4,8.69,36.9,792,132.9,2222,MED

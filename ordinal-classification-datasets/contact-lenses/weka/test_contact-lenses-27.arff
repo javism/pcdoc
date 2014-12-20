@@ -1,0 +1,16 @@
+@relation contact-lenses-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.supervised.instance.StratifiedRemoveFolds-S1025197381-N4-F1
+
+@attribute age {young,pre-presbyopic,presbyopic}
+@attribute spectacle-prescrip {myope,hypermetrope}
+@attribute astigmatism {no,yes}
+@attribute tear-prod-rate {reduced,normal}
+@attribute contact-lenses {none,soft,hard}
+
+@data
+
+young,myope,no,reduced,none
+presbyopic,hypermetrope,yes,normal,none
+young,hypermetrope,yes,reduced,none
+pre-presbyopic,myope,yes,reduced,none
+pre-presbyopic,myope,yes,normal,hard
+pre-presbyopic,myope,no,normal,soft

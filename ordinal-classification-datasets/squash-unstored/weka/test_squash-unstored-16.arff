@@ -1,0 +1,42 @@
+@relation squash-unstored-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.supervised.instance.StratifiedRemoveFolds-S704756731-N4-F1
+
+@attribute site {P,HB,LINC}
+@attribute daf {30,40,50,60,70}
+@attribute fruit {1,2,9,10,7,11,17,3,4,12,8,13,5,15,6,20,14,23,27,16,19,21,24,18}
+@attribute weight numeric
+@attribute pene numeric
+@attribute solids numeric
+@attribute brix numeric
+@attribute a* numeric
+@attribute egdd numeric
+@attribute fgdd numeric
+@attribute groundspot_a* numeric
+@attribute glucose numeric
+@attribute fructose numeric
+@attribute sucrose numeric
+@attribute total numeric
+@attribute glucose+fructose numeric
+@attribute starch numeric
+@attribute sweetness numeric
+@attribute flavour numeric
+@attribute dry/moist numeric
+@attribute fibre numeric
+@attribute heat_input_emerg numeric
+@attribute heat_input_flower numeric
+@attribute Acceptability {not_suitable,ok,excellent}
+
+@data
+
+HB,50,24,1878,10.9,30,10.1,11.6,727,376,8.54,4.11,5.25,19.92,29.28,9.36,183.3,431.3,617.5,188,329.5,797,446,not_suitable
+HB,40,9,2056,7.5,23,7.5,8.8,664,323,2.85,1.47,1.82,11.96,15.25,3.29,137.54,317.8,673.5,581.3,219.4,734,393,not_suitable
+LINC,40,5,1387,8.8,28.7,8.1,10,626,240,1.55,4.36,6.34,14.41,25.11,10.71,210.08,362.6,453.3,270.2,303.7,696,310,not_suitable
+LINC,50,6,1858,9.2,29.9,10.4,14.3,667,296,6.72,5.8,7.65,22.25,35.7,13.46,188.67,416,417.2,151.6,372.9,737,366,not_suitable
+P,30,16,2228,7.5,26.4,9,11.4,651,262,-1.2,7.398478,8.352609,17.377391,33.128261,16.255652,137.157609,314,436.8,175.8,328.1,721,332,not_suitable
+P,30,5,1674,7.7,24.9,8.7,11.3,651,262,3.61,7.398478,8.352609,17.377391,33.128261,16.255652,137.157609,339.4,393.5,264.2,312.6,721,332,not_suitable
+HB,50,9,2254,8.9,23.5,9,10.8,727,376,6.28,6.02,7.57,17.63,31.21,13.58,114.45,512.5,721.9,531.2,188.2,797,446,ok
+P,30,3,1712,6.9,21.2,8.4,12.2,651,262,-0.29,7.398478,8.352609,17.377391,33.128261,16.255652,137.157609,505.5,542.9,597.4,226.1,721,332,ok
+P,30,6,1619,6.7,20.5,7.7,12.8,651,262,0.83,7.398478,8.352609,17.377391,33.128261,16.255652,137.157609,538.5,605.5,440.4,307.6,721,332,ok
+LINC,30,1,1449,3.2,17.8,5.4,8.7,602,190,-5.71,9.08,11.34,4.45,24.87,20.42,102.88,298.6,506.5,453.1,272.4,672,260,ok
+P,50,19,1162,8.1,19.1,8.9,17.6,891,461,9.6,17.23,15.28,12.64,45.15,32.51,59.78,607.5,754.3,505.5,357.1,961,531,ok
+LINC,70,3,1635,9.9,25.8,10.2,18.9,709,368,16.82,6.5,7.74,19.12,33.36,14.24,111.2,564.9,649.6,555.5,156.9,779,438,ok
+P,60,10,1500,10.4,26.4,12,22.7,953,542,6.96,11.77,10.06,29.54,51.37,21.83,119.06,819.6,891.1,615.9,282,1023,612,excellent
